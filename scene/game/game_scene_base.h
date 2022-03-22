@@ -1,0 +1,50 @@
+
+#ifndef __GAME_SCENE_BASE_H__
+#define __GAME_SCENE_BASE_H__
+
+#include "../scene_base.h"
+
+class game_scene_base : public scene_base
+{
+public:
+    game_scene_base();
+    ~game_scene_base();
+
+protected:
+};
+
+typedef game_scene_base game_scene;
+
+class game_1 : public game_scene_base
+{
+public:
+    game_1();
+    ~game_1();
+
+    virtual void init() override final;
+    virtual void show() override final;
+    virtual void hide() override final;
+    virtual void clear() override final;
+    
+protected:
+
+private:
+};
+
+class game_2 : public game_scene_base
+{
+public:
+    game_2();
+    ~game_2();
+
+    virtual void init() override final;
+    virtual void show() override final;
+    virtual void hide() override final;
+    virtual void clear() override final;
+    
+protected:
+
+private:
+};
+
+#endif
