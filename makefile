@@ -2,7 +2,7 @@ CC = gcc
 CXX = g++
 CFLAG = -g -std=c++11
 LIBS  = -lm -lstdc++
-EXCUTABLE_FILE = mxd
+EXCUTABLE_FILE = main
 
 SCENE_SUB=./scene/
 GAME_SUB=./scene/game/
